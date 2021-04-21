@@ -24,7 +24,7 @@ public class PegawaiController {
     {
        Pegawai emp = new Pegawai();
        pegawaiRepo.save(model);
-        return model;
+        return "Sukses";
     }
 
     @GetMapping(path="/get-pegawai")
